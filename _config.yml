@@ -1,5 +1,10 @@
 theme: minima
-name: Mayx的主页
+title: Mayx的主页
 url: https://mayx.tk/
 github_username: Mabbs
-rss: rss
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+feed:
+  path: feed.xml
