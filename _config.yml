@@ -1,8 +1,14 @@
 theme: minima
+author: Mayx
+email: mayx@outlook.com
 title: Mayx的主页
 url: https://mayx.tk
+description: >
+  Mayx的导航页
+
 github_username: Mabbs
 rss: rss
+show_excerpts: true
 
 plugins:
   - jekyll-sitemap
