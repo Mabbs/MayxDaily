@@ -1,8 +1,8 @@
 ---
 layout: home
+title: 欢迎来到Mayx的主页
 ---
 
-# 欢迎来到Mayx的主页
 这里会放我的网站和一些重要的文章。   
 
 [Mayx的博客 - On Github](https://mabbs.github.io/)   
