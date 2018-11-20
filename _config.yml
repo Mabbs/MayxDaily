@@ -4,7 +4,7 @@ email: mayx@outlook.com
 title: Mayx的主页
 url: https://mayx.tk
 description: >
-  Mayx的导航页
+  这是Mayx的主页
 
 github_username: Mabbs
 rss: rss
@@ -12,6 +12,7 @@ show_excerpts: true
 
 header_pages:
  - about.md
+ - site.md
 
 plugins:
   - jekyll-sitemap
