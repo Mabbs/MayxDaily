@@ -2,10 +2,10 @@ theme: minima
 lang: zh
 author: Mayx
 email: mayx@outlook.com
-title: Mayx的主页
+title: Mayx日报
 url: https://mayx.tk
 description: >
-  这是Mayx的主页
+  由于Mayx懒得发东西而使用Travis-CI自动更新的日报系统
 
 github_username: Mabbs
 rss: rss
