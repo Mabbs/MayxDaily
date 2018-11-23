@@ -5,3 +5,11 @@ php:
   
 script:
   - php autopost.php
+
+after_script:
+  - git init
+  - git config user.name "${U_NAME}"
+  - git config user.email "${U_EMAIL}"
+  - git add .
+  - git commit -m "Auto Update MayxDaily"
+  - git push --quiet "https://${GH_TOKEN}@${GH_REF}" master:${P_BRANCH}
