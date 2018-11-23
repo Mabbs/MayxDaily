@@ -108,4 +108,5 @@ Hi,今天是" . date("Y-m-d") . "，以下是今天的日报：<br><small>
 $markout = fopen("./_posts/" . date("Y-m-d") . "-MayxDaily.md", "w") or die("Unable to open file!");
 fwrite($markout, $txt);
 fclose($markout);
+file_get_contents("https://mappi.000webhostapp.com/mail.mayx.php");
 ?>
