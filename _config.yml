@@ -10,6 +10,7 @@ description: >
 github_username: Mabbs
 rss: rss
 show_excerpts: true
+excerpt_separator: <!--more-->
 
 header_pages:
  - about.md
