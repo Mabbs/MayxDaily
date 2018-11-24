@@ -12,4 +12,4 @@ after_script:
   - git config user.email "${U_EMAIL}"
   - git add .
   - git commit -am "Auto Update MayxDaily"
-  - git push --force "https://${GH_TOKEN}@${GH_REF}" master:${P_BRANCH}
+  - git push "https://${GH_TOKEN}@${GH_REF}" origin:${P_BRANCH}
