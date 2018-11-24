@@ -96,7 +96,7 @@ title: " . date("Y-m-d") . "-Mayx的日报
 ---
 
 Hi,今天是" . date("Y-m-d") . "，以下是今天的日报：<br><small>
-" . file_get_contents("https://yuri.gear.host/hitokoto/") . "</small>
+" . file_get_contents("https://yuri.gear.host/hitokoto/") . "</small><!--more-->
 ## 天气预报
 " . w_get() . "
 ## 每日笑话
@@ -104,7 +104,9 @@ Hi,今天是" . date("Y-m-d") . "，以下是今天的日报：<br><small>
 ##今日新闻
 
 " . xw_get() . "
+
 ***
+
 <small>" . file_get_contents("https://api.gushi.ci/all.txt") . "</small>
 ";
 $markout = fopen("./_posts/" . date("Y-m-d") . "-MayxDaily.md", "w") or die("Unable to open file!");
