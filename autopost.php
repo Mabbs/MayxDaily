@@ -72,7 +72,8 @@ for($i=0;$i<sizeof($rssfeed);$i++){//分解开始
             $is_item = 1; 
         }else if ($tag == "item" && $type == "close") { 
             //构造输出字符串 
-            $rss_str .= "<a href='".$link."' target=_blank>".$title."</a><br />"; 
+            $rss_str .= "[".$title."](".$link.")   
+            "; 
             $j++;
             $is_item = 0; 
         } 
@@ -101,6 +102,7 @@ Hi,今天是" . date("Y-m-d") . "，以下是今天的日报：<br><small>
 ## 每日笑话
 " . xh_get() . "
 ##今日新闻
+
 " . xw_get() . "
 ***
 <small>" . file_get_contents("https://api.gushi.ci/all.txt") . "</small>
