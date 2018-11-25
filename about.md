@@ -3,6 +3,7 @@ layout: default
 title: 关于Mayx
 ---
 
+# 关于Mayx
  * * *
 
 | Item | Value |
@@ -21,4 +22,6 @@ title: 关于Mayx
  
  Phone Number: 15209678869
  
- Email: mayx@outlook.com
+ Email: <mayx@outlook.com>
+ 
+ [About.me](https://about.me/mayx)
