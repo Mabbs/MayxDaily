@@ -73,7 +73,7 @@ for($i=0;$i<sizeof($rssfeed);$i++){//分解开始
         }else if ($tag == "item" && $type == "close") { 
             //构造输出字符串 
             $rss_str .= "[".$title."](".$link.")   
-            "; 
+"; 
             $j++;
             $is_item = 0; 
         } 
@@ -112,6 +112,43 @@ Hi,今天是" . date("Y-m-d") . "，以下是今天的日报：<br><small>
 ";
 $markout = fopen("./_posts/" . date("Y-m-d") . "-MayxDaily.md", "w") or die("Unable to open file!");
 fwrite($markout, $txt);
+fclose($markout);
+ function curl($url){
+ $headers = array();
+ $headers[] = 'Accept: */*';
+ $headers[] = 'Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3';
+ $headers[] = 'Accept-Encoding: gzip, deflate, br';
+ $headers[] = 'Referer: https://www.pixiv.net/';
+ $headers[] = 'Connection: keep-alive';
+ $headers[] = 'Cache-Control: max-age=0';
+ $curl = curl_init();
+ curl_setopt($curl,CURLOPT_URL,$url);
+ curl_setopt($curl,CURLOPT_RETURNTRANSFER,1);
+ curl_setopt($curl,CURLOPT_CONNECTTIMEOUT,60);
+ curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
+ curl_setopt($curl, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 iHuan Firefox/54.0");
+ $src = curl_exec($curl);
+ curl_close($curl); 
+ return $src;
+ }
+ $data = file_get_contents('https://www.pixiv.net/');
+ preg_match_all('/value=\'(.*?)\'>/is',$data,$reg);
+ $img = json_decode($reg[1][0],true);
+ $num = 0;
+ $imageso = "---
+layout: default
+title: 每日图片
+---
+
+";
+ foreach($img['pixivBackgroundSlideshow.illusts']['landscape'] as $data){
+ file_put_contents('images/'.$num.'.jpg',curl(str_replace('https','http',$data['url']['1200x1200'])));
+ $imageso = $imageso.'![Pixiv](images/'.$num.' "Pixiv")<br />
+ ';
+ $num++;
+ }
+$markout = fopen("DailyPic.md", "w") or die("Unable to open file!");
+fwrite($markout, $imageso);
 fclose($markout);
 file_get_contents("https://mappi.000webhostapp.com/mail.mayx.php");
 ?>
