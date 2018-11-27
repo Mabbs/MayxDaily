@@ -4,7 +4,7 @@ php:
   - 7.1
   
 script:
-  - rm -rf images
+  - rm -rf images/*
   - php autopost.php
 
 after_script:
