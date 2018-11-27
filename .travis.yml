@@ -4,10 +4,10 @@ php:
   - 7.1
   
 script:
+  - rm -rf images
   - php autopost.php
 
 after_script:
-  - git init
   - git config user.name "${U_NAME}"
   - git config user.email "${U_EMAIL}"
   - git checkout master
