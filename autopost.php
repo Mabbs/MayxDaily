@@ -143,7 +143,7 @@ title: 每日图片
 ";
  foreach($img['pixivBackgroundSlideshow.illusts']['landscape'] as $data){
  file_put_contents('images/'.$num.'.jpg',curl(str_replace('https','http',$data['url']['1200x1200'])));
- $imageso = $imageso.'![Pixiv](images/'.$num.'.jpg "Pixiv:'.$data['url']['1200x1200'].'")<br />
+ $imageso = $imageso.'![Pixiv](images/'.$num.'.jpg "Pixiv ID:'.$data['illust_id'].'")<br />
  ';
  $num++;
  }
