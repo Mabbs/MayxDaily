@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 每日图片
+title: Pixiv 背景
 ---
 
 ![Pixiv](images/0.jpg "Pixiv ID:36919122")<br />
