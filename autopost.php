@@ -37,6 +37,12 @@ function xh_get(){
         $retdata=curl_post_https($url,$data);
         return $retdata;//返回json
 }
+function img_get(){
+ $data = file_get_contents('https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1');
+ $file = json_decode($data,true);
+ $imgdata = '![Bing Background](https://cn.bing.com'.$file[images][0][url].' "'.$file[images][0][copyright].'")';
+ return $imgdata;
+}
 function xw_get(){
 //RSS源地址列表数组 
 $rssfeed = array("http://www.people.com.cn/rss/it.xml"); 
@@ -101,7 +107,8 @@ Hi,今天是" . date("Y-m-d") . "，以下是今天的日报：<br><small>
 " . w_get() . "
 ## 每日笑话
 " . xh_get() . "
-
+## 每日壁纸
+" . img_get() . "
 ## 今日新闻
 
 " . xw_get() . "
@@ -137,7 +144,7 @@ fclose($markout);
  $num = 0;
  $imageso = "---
 layout: default
-title: 每日图片
+title: Pixiv 背景
 ---
 
 ";
