@@ -1,10 +1,7 @@
 ---
-layout: default
+layout: page
 title: 关于Mayx
 ---
-
-# 关于Mayx
- * * *
 
 | Item | Value |
 | - | - |
