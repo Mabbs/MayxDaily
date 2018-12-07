@@ -50,8 +50,8 @@ $rssfeed = array("http://www.people.com.cn/rss/it.xml");
 for($i=0;$i<sizeof($rssfeed);$i++){//分解开始 
     $buff = ""; 
     $rss_str=""; 
-    //打开rss地址，并读取，读取失败则中止 
-    $fp = fopen($rssfeed[$i],"r") or die("can not open $rssfeed");  
+    //打开rss地址，并读取
+    $fp = fopen($rssfeed[$i],"r");  
     while ( !feof($fp) ) { 
         $buff .= fgets($fp,4096); 
     } 
