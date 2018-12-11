@@ -4,6 +4,7 @@ author: Mayx
 email: mayx@outlook.com
 title: Mayx日报
 url: https://mayx.tk
+paginate: 7
 description: >
   由于Mayx懒得发东西而使用Travis-CI自动更新的日报系统
 
