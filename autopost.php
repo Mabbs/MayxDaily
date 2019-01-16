@@ -53,8 +53,8 @@ for($i=0;$i<sizeof($rssfeed);$i++){//分解开始
     //打开rss地址，并读取
     try{
     $fp = fopen($rssfeed[$i],"r");  
-    }catch{
-       return "MayxDaily无法连接至新闻服务器";
+    }catch(Exception $e){
+       return "MayxDaily无法连接至新闻服务器……";
     }
     while ( !feof($fp) ) { 
         $buff .= fgets($fp,4096); 
