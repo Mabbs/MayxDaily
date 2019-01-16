@@ -38,7 +38,7 @@ function xh_get(){
         return $retdata;//返回json
 }
 function img_get(){
- $data = file_get_contents('https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1');
+ $data = file_get_contents('https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1') or return "MayxDaily无法连接至壁纸服务器……";
  $file = json_decode($data,true);
  $imgdata = '![Bing Background](https://cn.bing.com'.$file[images][0][url].' "'.$file[images][0][copyright].'")';
  return $imgdata;
@@ -51,7 +51,7 @@ for($i=0;$i<sizeof($rssfeed);$i++){//分解开始
     $buff = ""; 
     $rss_str=""; 
     //打开rss地址，并读取
-    $fp = fopen($rssfeed[$i],"r");  
+    $fp = fopen($rssfeed[$i],"r") or return "MayxDaily无法连接至新闻服务器……";  
     while ( !feof($fp) ) { 
         $buff .= fgets($fp,4096); 
     } 
