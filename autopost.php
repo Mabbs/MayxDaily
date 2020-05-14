@@ -157,5 +157,5 @@ title: Pixiv 背景
 $markout = fopen("DailyPic.md", "w");
 fwrite($markout, $imageso);
 fclose($markout);
-file_get_contents("https://mappi.000webhostapp.com/mail.mayx.php");
+file_get_contents("https://yuri.gear.host/autopost.php");
 ?>
