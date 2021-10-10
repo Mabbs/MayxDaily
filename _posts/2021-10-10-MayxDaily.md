@@ -1,0 +1,40 @@
+---
+layout: post
+title: 2021-10-10-Mayx的日报
+---
+
+Hi,今天是2021-10-10，以下是今天的日报：<br><small>
+我一直陪在您身边白日与夜，砂糖与盐圣者与尸骸，污秽与纯洁我是您忠诚的仆人.</small><!--more-->
+## 天气预报
+银川:周日 10月10日,晴 持续无风向转南风,最低气温1度，最高气温13度。<br>银川:周一 10月11日,晴 南风,最低气温5度，最高气温17度。<br>银川:周二 10月12日,多云 持续无风向,最低气温8度，最高气温16度。
+## 每日笑话
+猪圈有两个人来到一家旅店， 其中一顾客：“这里简直象一个猪圈！这种地方住一晚上多少钱？” 店老板：“一只10块，两只18。”
+## 每日壁纸
+![Bing Background](https://cn.bing.com/th?id=OHR.SandhillApache_EN-US7367797025_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp "Sandhill cranes and mallard ducks, Bosque del Apache National Wildlife Refuge, New Mexico (© Cathy & Gordon Illg/Jaynes Gallery/DanitaDelimont.com)")
+## 今日新闻
+
+[2021国家网络安全宣传周重大活动日程](http://it.people.com.cn/n1/2021/1008/c433780-32247599.html)   
+[2021年国家网络安全宣传周高清海报](http://it.people.com.cn/n1/2021/1008/c433780-32247596.html)   
+[江苏南通启动个人信息保护专项整治行动](http://it.people.com.cn/n1/2021/1008/c433780-32247593.html)   
+[西安：互联网“红利”不断释放 网信成果助力城市发展](http://it.people.com.cn/n1/2021/1008/c433780-32247592.html)   
+[周鸿祎：构建新战法、新框架和新能力 用数字化思维重塑网络安全](http://it.people.com.cn/n1/2021/1008/c433780-32247571.html)   
+[中国网络安全保护进入新阶段](http://it.people.com.cn/n1/2021/1008/c433780-32247581.html)   
+[守护网络安全 专家详解新战法](http://it.people.com.cn/n1/2021/1008/c433780-32247584.html)   
+[黄澄清：要重视网络安全问题 实现行业长足发展](http://it.people.com.cn/n1/2021/1008/c433780-32247586.html)   
+[专家热议：网络安全领域需加速产学研用管深度融合](http://it.people.com.cn/n1/2021/1008/c433780-32247583.html)   
+[中国电信：护航网络安全 牢筑安全之基](http://it.people.com.cn/n1/2021/1008/c433780-32247585.html)   
+[工信部：强化监管 重点保障 确保基础电信网络安全](http://it.people.com.cn/n1/2021/1008/c433780-32247579.html)   
+[为维护网络安全提供坚强后盾——四部门负责人就《关键信息基础设施安全保护条例》答记者问](http://it.people.com.cn/n1/2021/1008/c433780-32247582.html)   
+[国家网信办：企业无论在哪上市必须确保国家的网络安全](http://it.people.com.cn/n1/2021/1008/c433780-32247578.html)   
+[工信部：到2023年网络安全产业规模超过2500亿元](http://it.people.com.cn/n1/2021/1008/c433780-32247588.html)   
+[三部门加密网络安全围栏 首次从产品视角管理漏洞](http://it.people.com.cn/n1/2021/1008/c433780-32247587.html)   
+[多重政策叠加利好 我国网络安全产业全面提速](http://it.people.com.cn/n1/2021/1008/c433780-32247573.html)   
+[强化法治监管 筑牢网络安全防线](http://it.people.com.cn/n1/2021/1008/c433780-32247577.html)   
+[工信部部署加强车联网网络安全和数据安全](http://it.people.com.cn/n1/2021/1008/c433780-32247572.html)   
+[智能汽车网络安全亟待打破体制壁垒](http://it.people.com.cn/n1/2021/1008/c433780-32247570.html)   
+[国家网络安全宣传周上海品牌活动 网络安全嘉年华开幕](http://it.people.com.cn/n1/2021/1008/c433780-32247565.html)   
+<br />
+
+***
+
+<small></small>
