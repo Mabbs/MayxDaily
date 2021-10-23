@@ -1,8 +1,7 @@
 ---
-layout: none
 title: 关于Mayx
 ---
 
 <script>
-  location.href="/Mabbs/"
+  location.href="https://mabbs.github.io/Mabbs/"
 </script>
