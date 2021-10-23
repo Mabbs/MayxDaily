@@ -5,7 +5,7 @@ email: mayx@outlook.com
 title: Mayx日报
 url: https://mabbs.github.io
 paginate: 7
-baseurl: /MayxDaily
+baseurl: /
 description: >
   由于Mayx懒得发东西而使用Travis-CI自动更新的日报系统
 
