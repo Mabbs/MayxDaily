@@ -1,4 +1,5 @@
 ---
+layout: none
 title: 关于Mayx
 ---
 
