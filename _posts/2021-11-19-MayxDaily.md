@@ -4,13 +4,13 @@ title: 2021-11-19-Mayx的日报
 ---
 
 Hi,今天是2021-11-19，以下是今天的日报：<br><small>
-正因为单纯，绝望时的反抗才会更激烈。</small><!--more-->
+空谈之类，是谈不久，也谈不出什么来的，它终必被事实的镜子照出原形，拖出尾巴而去。</small><!--more-->
 ## 天气预报
 银川:周五 11月19日,多云 西北风转持续无风向,最低气温-3度，最高气温8度。<br>银川:周六 11月20日,多云转晴 西北风,最低气温-5度，最高气温7度。<br>银川:周日 11月21日,晴 西北风转持续无风向,最低气温-10度，最高气温0度。
 ## 每日笑话
-为什么蝙蝠看不到东西？为什么蝙蝠看不到东西？==因为蝙蝠瞎（侠）
+松鼠的悲哀有一天，小明去动物园里，有只小松鼠躲在树后面探出小脑袋偷窥小明。小明挥手和它打招呼，它也和小明挥爪，然后小明挥双手的，它也挥双爪。结果呢??它就掉下来了！
 ## 每日壁纸
-![Bing Background](https://cn.bing.com/th?id=OHR.TisaBohemian_EN-US4154092405_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp "Bohemian Switzerland National Park near Tisá, Czech Republic (© Amazing Aerial Agency/Offset)")
+![Bing Background](https://cn.bing.com/th?id=OHR.LeftForkNorth_EN-US4970545518_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp "The Subway slot canyon in Zion National Park, Utah (© Stan Moniz/Tandem Stills + Motion)")
 ## 今日新闻
 
 [关键信息基础设施安全标准论坛顺利举办](http://it.people.com.cn/n1/2021/1014/c433780-32253526.html)   
