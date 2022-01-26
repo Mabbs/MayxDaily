@@ -30,6 +30,17 @@ layout: default
 
     <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
   {%- endif -%}
+
+<script>
+  function switchPage(sobj){
+    if (sobj.value == 1){
+      window.location = "/";
+    } else {
+      window.location = "/page" + sobj.value + "/";
+    }
+  }
+</script>
+
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
@@ -37,17 +48,15 @@ layout: default
   {% else %}
     <span>&laquo; Prev</span>
   {% endif %}
-
+<select onchange="switchPage(this)">
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      <option value="{{ page }}" selected>{{ page }}</option>
     {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      <option value="{{ page }}">{{ page }}</option>
     {% endif %}
   {% endfor %}
-
+</select>
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
   {% else %}
