@@ -31,16 +31,6 @@ layout: default
     <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
   {%- endif -%}
 
-<script>
-  function switchPage(sobj){
-    if (sobj.value == 1){
-      window.location = "/";
-    } else {
-      window.location = "/page" + sobj.value + "/";
-    }
-  }
-</script>
-
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
@@ -48,7 +38,7 @@ layout: default
   {% else %}
     <span>&laquo; Prev</span>
   {% endif %}
-<select onchange="switchPage(this)">
+<select onchange="window.location = this.value == 1 ? 'index.html' : '/page' + this.value + '/'>
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
       <option value="{{ page }}" selected>{{ page }}</option>
