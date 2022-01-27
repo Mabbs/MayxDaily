@@ -38,7 +38,7 @@ layout: default
   {% else %}
     <span>&laquo; Prev</span>
   {% endif %}
-<select onchange="window.location = this.value == 1 ? 'index.html' : '/page' + this.value + '/'">
+<select onchange="window.location = this.value == 1 ? '/index.html' : '/page' + this.value + '/'">
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
       <option value="{{ page }}" selected>{{ page }}</option>
